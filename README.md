@@ -1,4 +1,4 @@
-# R-CosineSimilarity
+# IR-CosineSimilarity
 I create a vector Information Retrieval Model to the research interests of the Faculty members of the Department (a.k.a. DEP or professors) and based on this to suggest possible collaborations between them.
 
 * Question 1 . Finding important terms for each faculty member. In this question you are asked to characterize with a set of terms the research interests of each faculty member. Use the Vector Model and the tf-idf load to represent each faculty member as a weight vector of the terms contained in the titles of his research articles and conferences / journals that have been published. Your implementation should, after doing the above, create the profile "prof-description.txt" that will have 26 lines (as many faculty members) and each line will contain the last name of the faculty member followed by the N most important terms together with their weights in the form (term, weight), which were found in the titles of the articles and the respective journals / conferences. N will be a parameter of your program.
